@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+}
+
+*body {
+    color: white;
+}
+
+@media only screen and (max-width: 599px) {
+    body {
+        background-color: white;
+    }
+}
+
+.baner-1 {
+    height: 300px;
+    width: 350px;
+    padding-left: 800px;
+}
+
+.baner-2 {
+    height: 300px;
+    width: 250px;
+    padding-left: 400px;
+}
+
+.baner {
+    background: white;
+    background-image: url('/image/Mask\ Group\ 4\ -\ Copy.png');
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: top left;
+    display: flex;
+
+}
+
+.sconed-img {
+    max-width: 100%;
+    height: 35%;
+    padding-left: 112%;
+    display: flex;
+}
+
+.paragraph {
+    color: white;
+    font-size: medium;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dance-img {
+    padding-left: 450px;
+    padding-top: 300px;
+}
+
+.h1 {
+    padding-left: 400px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.katy {
+    color: rgb(85, 210, 85);
+}
+
+@media screen and(max-width: 599px) {
+    .baner {
+        flex-direction: column;
+    }
+}
+
+.shadow-1 {
+    color: rgb(101, 92, 92);
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    height: 40px;
+    padding-right: 3%;
+    box-shadow: 100px 100px 100px 100px rgb(220, 212, 212);
+    text-align: center;
+    margin-left: 35%;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.shadow-2 {
+    color: rgb(101, 92, 92);
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    height: 40px;
+    padding-right: 3%;
+    box-shadow: 100px 100px 100px 100px white;
+    text-align: center;
+    margin-left: 35%;
+    padding-top: 10px;
+
+}
+
+.btn {
+    margin-left: 45%;
+    padding: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100px;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.sign {
+    padding-left: 46%;
+    font-size: 20px;
+    font-weight: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
+
+.sign-2 {
+    padding-left: 30%;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
+
+.section-one {
+    padding-top: 45px;
+}
+
+.section-two {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+@media screen and (max-width : 599px) {
+    .section-two {
+        padding-top: 50px;
+        padding-bottom: 80px;
+
+    }
