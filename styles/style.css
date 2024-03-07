@@ -1,56 +1,16 @@
-* {
-    margin: 0;
-}
-
 *body {
-    color: white;
-}
-
-@media only screen and (max-width: 599px) {
-    body {
-        background-color: white;
-    }
-}
-
-.baner-1 {
-    height: 300px;
-    width: 350px;
-    padding-left: 800px;
-}
-
-.baner-2 {
-    height: 300px;
-    width: 250px;
-    padding-left: 400px;
-}
-
-.baner {
-    background: white;
-    background-image: url('/image/Mask\ Group\ 4\ -\ Copy.png');
-    background-repeat: no-repeat;
-    background-size: 500px;
-    background-position: top left;
-    display: flex;
-
-}
-
-.sconed-img {
-    max-width: 100%;
-    height: 35%;
-    padding-left: 112%;
-    display: flex;
-}
-
-.paragraph {
-    color: white;
-    font-size: medium;
-    font-weight: 300;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .dance-img {
     padding-left: 450px;
-    padding-top: 300px;
+    padding-top: 100px;
+}
+
+.img22 {
+    width: 100%;
+    height: 100px;
 }
 
 .h1 {
@@ -60,12 +20,6 @@
 
 .katy {
     color: rgb(85, 210, 85);
-}
-
-@media screen and(max-width: 599px) {
-    .baner {
-        flex-direction: column;
-    }
 }
 
 .shadow-1 {
@@ -132,10 +86,3 @@
     padding-top: 50px;
     padding-bottom: 80px;
 }
-
-@media screen and (max-width : 599px) {
-    .section-two {
-        padding-top: 50px;
-        padding-bottom: 80px;
-
-    }
